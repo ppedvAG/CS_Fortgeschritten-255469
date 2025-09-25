@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeComponent", "PrimeComp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{C5DD820F-8202-4882-BC86-7E63BD302B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{23B89991-8EBD-42A2-A522-009F0583F413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{8FAC230F-1689-4105-A1CE-BFCBD8B6B3F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{C5DD820F-8202-4882-BC86-7E63BD302B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DD820F-8202-4882-BC86-7E63BD302B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DD820F-8202-4882-BC86-7E63BD302B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B89991-8EBD-42A2-A522-009F0583F413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B89991-8EBD-42A2-A522-009F0583F413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B89991-8EBD-42A2-A522-009F0583F413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B89991-8EBD-42A2-A522-009F0583F413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAC230F-1689-4105-A1CE-BFCBD8B6B3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAC230F-1689-4105-A1CE-BFCBD8B6B3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAC230F-1689-4105-A1CE-BFCBD8B6B3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAC230F-1689-4105-A1CE-BFCBD8B6B3F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,16 +4,29 @@ List<int> i = [1, 2, 3, 4, 5];
 ForEach(i, Funktion);
 IEnumerable<int> x = ForEachReturn2(i, MalZwei);
 
-
-
 Component comp = new();
 comp.Prime += Comp_Prime;
+comp.NotPrime += Comp_NotPrime;
+comp.Prime100 += Comp_Prime100;
 comp.DoWork();
 
 void Comp_Prime(object? sender, PrimeEventArgs e)
 {
 	Console.WriteLine($"Primzahl: {e.Zahl}");
 }
+
+void Comp_NotPrime(object? sender, NotPrimeEventArgs e)
+{
+	Console.WriteLine($"Keine Primzahl: {e.Zahl}, Teiler: {e.Teiler}");
+}
+
+void Comp_Prime100(object? sender, PrimeEventArgs e)
+{
+	Console.WriteLine($"Hundertste Primzahl: {e.Zahl}");
+}
+
+
+
 
 void ForEach<T>(IEnumerable<T> values, Action<T> action)
 {

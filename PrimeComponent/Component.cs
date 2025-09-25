@@ -11,7 +11,7 @@ public class Component
 	public void DoWork()
 	{
 		int primeCounter = 1; //Prime100
-		for (int i = 0; ; i++)
+		for (int i = 5_300_000; ; i++)
 		{
 			bool isPrime = CheckPrime(i, out int t);
 			if (isPrime)
@@ -22,7 +22,7 @@ public class Component
 					Prime?.Invoke(this, new PrimeEventArgs(i));
 				primeCounter++;
 
-				Thread.Sleep(100);
+				//Thread.Sleep(100);
 			}
 			else
 				NotPrime?.Invoke(this, new NotPrimeEventArgs(i, t));
