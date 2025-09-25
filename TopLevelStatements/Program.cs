@@ -1,6 +1,19 @@
-﻿List<int> i = [1, 2, 3, 4, 5];
+﻿using PrimeComponent;
+
+List<int> i = [1, 2, 3, 4, 5];
 ForEach(i, Funktion);
 IEnumerable<int> x = ForEachReturn2(i, MalZwei);
+
+
+
+Component comp = new();
+comp.Prime += Comp_Prime;
+comp.DoWork();
+
+void Comp_Prime(object? sender, PrimeEventArgs e)
+{
+	Console.WriteLine($"Primzahl: {e.Zahl}");
+}
 
 void ForEach<T>(IEnumerable<T> values, Action<T> action)
 {
