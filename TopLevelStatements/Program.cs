@@ -10,6 +10,7 @@ comp.NotPrime += Comp_NotPrime;
 comp.Prime100 += Comp_Prime100;
 comp.DoWork();
 
+
 void Comp_Prime(object? sender, PrimeEventArgs e)
 {
 	Console.WriteLine($"Primzahl: {e.Zahl}");
