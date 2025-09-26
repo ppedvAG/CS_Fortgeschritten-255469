@@ -29,6 +29,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitWPF", "AsyncAwait
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{AB1EBB4A-C9F5-4A48-B181-2F321BBA9765}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{95C4825A-9B29-4327-A87D-4BEAB4F8EF6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{B763E7A0-3D75-4EFA-A056-2C94944A7C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginCalculator", "PluginCalculator\PluginCalculator.csproj", "{FBFC5DDD-AA35-4975-9F17-24C5E8930DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginClient", "PluginClient\PluginClient.csproj", "{041FA2FB-2167-4460-8337-D502075C19AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +95,22 @@ Global
 		{AB1EBB4A-C9F5-4A48-B181-2F321BBA9765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB1EBB4A-C9F5-4A48-B181-2F321BBA9765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB1EBB4A-C9F5-4A48-B181-2F321BBA9765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C4825A-9B29-4327-A87D-4BEAB4F8EF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C4825A-9B29-4327-A87D-4BEAB4F8EF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C4825A-9B29-4327-A87D-4BEAB4F8EF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C4825A-9B29-4327-A87D-4BEAB4F8EF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B763E7A0-3D75-4EFA-A056-2C94944A7C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B763E7A0-3D75-4EFA-A056-2C94944A7C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B763E7A0-3D75-4EFA-A056-2C94944A7C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B763E7A0-3D75-4EFA-A056-2C94944A7C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFC5DDD-AA35-4975-9F17-24C5E8930DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFC5DDD-AA35-4975-9F17-24C5E8930DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFC5DDD-AA35-4975-9F17-24C5E8930DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFC5DDD-AA35-4975-9F17-24C5E8930DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041FA2FB-2167-4460-8337-D502075C19AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041FA2FB-2167-4460-8337-D502075C19AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041FA2FB-2167-4460-8337-D502075C19AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041FA2FB-2167-4460-8337-D502075C19AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
